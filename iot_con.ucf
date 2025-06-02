@@ -1,0 +1,5 @@
+NET "clk" LOC = "P84";
+NET "txd" LOC = "P87";
+#NET "btn" LOC = "P22";
+NET "LED"  LOC = "p23";
+NET "btn"  LOC = "p75";

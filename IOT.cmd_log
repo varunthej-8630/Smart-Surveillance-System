@@ -1,0 +1,106 @@
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.xst" -ofn "C:/Users/ashok/OneDrive/Documents/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "D:/backup/xilinx/npnp/IOT.xst" -ofn "D:/backup/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+xst -intstyle ise -ifn "D:/backup/xilinx/npnp/IOT.xst" -ofn "D:/backup/xilinx/npnp/IOT.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc iot_con.ucf -p xc6slx9-tqg144-3 IOT.ngc IOT.ngd  
+map -intstyle ise -p xc6slx9-tqg144-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o IOT_map.ncd IOT.ngd IOT.pcf 
+par -w -intstyle ise -ol high -mt off IOT_map.ncd IOT.ncd IOT.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml IOT.twx IOT.ncd -o IOT.twr IOT.pcf -ucf iot_con.ucf 
+bitgen -intstyle ise -f IOT.ut IOT.ncd 
